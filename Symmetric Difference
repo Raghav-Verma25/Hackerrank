@@ -1,0 +1,11 @@
+n=int(input())
+a = map(int,input().split())
+b=set(a)
+n1=int(input())
+a1 = map(int,input().split())
+b1=set(a1)
+diff = b1 ^ b
+lst = list(diff)
+lst.sort()
+for i in lst:
+    print(i)

@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+sq = a**b
+#print(sq)
+sq2 = c**d
+#print(sq2)
+print(sq + sq2)

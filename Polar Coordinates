@@ -1,0 +1,7 @@
+import cmath
+import math
+e=eval(input())
+x=e.real
+y=e.imag
+print(math.hypot(x,y))
+print(cmath.phase(e))
